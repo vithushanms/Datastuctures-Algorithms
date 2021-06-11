@@ -34,7 +34,7 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 */
 
 public class TwoSum{
-    public static void main(int[] args){
+    public static void main(String[] args){
         solution(new int[]{2,3,1,5}, 8);
     }
 
