@@ -1,3 +1,4 @@
+# solution with time complexity O(n) and space complexity O(n)
 def isPalindrome(x: int) -> bool:
     num = [char for char in str(x)]
     left = 0
