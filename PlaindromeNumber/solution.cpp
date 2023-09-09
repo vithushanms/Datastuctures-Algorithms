@@ -3,10 +3,11 @@
 #include <sstream>
 using namespace std;
 
+// Time complexity O(n)
 class Solution {
 public:
     bool isPalindrome(int x) {
-         string x_str = to_string(x);
+        string x_str = to_string(x);
         int left = 0, right = x_str.length() - 1; 
         while (left < right) {
             char temp = x_str[left];
